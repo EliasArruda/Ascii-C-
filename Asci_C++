@@ -1,0 +1,120 @@
+if (acertos == tamanho)
+        {
+		    cout << ("       ___________      \n");
+		    cout << ("      '._==_==_=_.'     \n");
+		    cout << ("      .-\\:      /-.    \n");
+		    cout << ("     | (|:.     |) |    \n");
+		    cout << ("      '-|:.     |-'     \n");
+		    cout << ("        \\::.    /      \n");
+		    cout << ("         '::. .'        \n");
+		    cout << ("           ) (          \n");
+		    cout << ("         _.' '._        \n");
+		    cout << ("        '-------'       \n\n");
+            cout << ("\nParabéns, você ganhou!\n\n");
+
+        }
+
+        if (vida == 0)
+        {
+            cout << endl;
+            cout << "███████████████████████████" << endl;
+            cout << "███████▀▀▀░░░░░░░▀▀▀███████" << endl;
+            cout << "████▀░░░░░░░░░░░░░░░░░▀████" << endl;
+            cout << "███│░░░░░░░░░░░░░░░░░░░│███" << endl;
+            cout << "██▌│░░░░░░░░░░░░░░░░░░░│▐██" << endl;
+            cout << "██░└┐░░░░░░░░░░░░░░░░░┌┘░██" << endl;
+            cout << "██░░└┐░░░░░░░░░░░░░░░┌┘░░██" << endl;
+            cout << "██░░┌┘▄▄▄▄▄░░░░░▄▄▄▄▄└┐░░██" << endl;
+            cout << "██▌░│██████▌░░░▐██████│░▐██" << endl;
+            cout << "███░│▐███▀▀░░▄░░▀▀███▌│░███" << endl;
+            cout << "██▀─┘░░░░░░░▐█▌░░░░░░░└─▀██" << endl;
+            cout << "██▄░░░▄▄▄▓░░▀█▀░░▓▄▄▄░░░▄██" << endl;
+            cout << "████▄─┘██▌░░░░░░░▐██└─▄████" << endl;
+            cout << "█████░░▐█─┬┬┬┬┬┬┬─█▌░░█████" << endl;
+            cout << "████▌░░░▀┬┼┼┼┼┼┼┼┬▀░░░▐████" << endl;
+            cout << "█████▄░░░└┴┴┴┴┴┴┴┘░░░▄█████" << endl;
+            cout << "███████▄░░░░░░░░░░░▄███████" << endl;
+            cout << "██████████▄▄▄▄▄▄▄██████████" << endl;
+            cout << "███████████████████████████" << endl;
+            cout << "Vocẽ perdeu" << endl;
+        }
+        
+        
+        
+        
+        
+        
+        
+        // Boneco do Jogo da Forca
+        if(vida == 6)
+        {
+            cout <<  "+---+" << endl;  ;
+            cout <<  "| | " << endl;
+            cout <<  "  | " << endl;
+            cout <<  "  | " << endl;
+            cout <<  "  | " << endl;
+            cout <<  "  | " << endl;
+            cout << "=======" << endl; 
+        }
+        else if(vida == 5)
+        {
+            cout <<  "+---+" << endl;  ;
+            cout <<  "| | " << endl;
+            cout <<  "o | " << endl;
+            cout <<  "  | " << endl;
+            cout <<  "  | " << endl;
+            cout <<  "  | " << endl;
+            cout << "=======" << endl; 
+        }
+        else if (vida == 4)
+        {
+            cout <<  "+---+" << endl;  ;
+            cout <<  "|  | " << endl;
+            cout <<  "o  | " << endl;
+            cout <<  "|  | " << endl;
+            cout <<  "   | " << endl;
+            cout <<  "   | " << endl;
+            cout << "=======" << endl; 
+        }
+        else if(vida == 3)
+        {
+             cout <<  " +--+" << endl;
+            cout <<  " |  | " << endl;
+            cout <<  " o  | " << endl;
+            cout << "<|  | " << endl;
+            cout << "    | " << endl;
+            cout <<  "    | " << endl;
+            cout << "=======" << endl; 
+        }
+        else if(vida == 2) 
+        {
+            cout <<  " +--+" << endl;
+            cout <<  " |  | " << endl;
+            cout <<  " o  | " << endl;
+            cout << "<|> | " << endl;
+            cout << "    | " << endl;
+            cout <<  "    | " << endl;
+            cout << "=======" << endl; 
+        }
+        else if(vida == 1) 
+        {
+            cout <<  " +--+" << endl; 
+            cout <<  " |  | " << endl;
+            cout <<  " o  | " << endl;
+            cout << "<|> | " << endl;
+            cout << "/   | " << endl;
+            cout <<  "    | " << endl;
+            cout << "=======" << endl; 
+        }
+        else if(vida == 1)
+        {
+            cout <<  " +--+" << endl; 
+            cout <<  " |  | " << endl;
+            cout <<  " o  | " << endl;
+            cout << "<|> | " << endl;
+            cout << "/   | " << endl;
+            cout <<  "    | " << endl;
+            cout << "=======" << endl; 
+        }
+    
+    }
